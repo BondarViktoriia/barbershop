@@ -1,0 +1,85 @@
+:root {
+  --bacground-color: #ffffff;
+  --primary-color: #555555;
+  --second-color: #ffffff;
+  --third-color: #303030;
+  --services-color: #9da4bd;
+  --second-background: #f7f7f7;
+  --acent-color: #ff6c00;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 3%;
+  color: var(--primary-color);
+}
+/* header */
+.list {
+  list-style: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 10%;
+}
+.site-nav .link {
+  color: var(--third-color);
+}
+.site-nav .link:focus,
+.site-nav .link:hover{
+    color: var(--acent-color);
+}
+.contact-tel{
+    color: var(--primary-color);
+    /* заменить цвет */
+    font-weight: 600;
+    font-size: 12px;
+line-height: 1.33;
+    letter-spacing: 10%;
+}
+.online {
+    color: var(--primary-color);
+        /* заменить цвет */
+    font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33;
+  }
+  /* Hero */
+  .sidebar{
+      color: var(--third-color);
+    font-weight: 600;
+        font-size: 11px;
+        line-height: 1.36;
+        letter-spacing: 20%;
+        /* text-align: left;
+        vertical-align: top; */
+        
+  }
+  .sidebar:focus, .sidebar:hover{
+      color: var(--acent-color);
+  }
+  .hero-title {
+      color: rgba(157, 164, 189, 0.6);
+        font-weight: 600;
+            font-size: 11px;
+            line-height: 1.36;
+            letter-spacing: 10%;
+  }
+  .title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5%;
+  }
+  .title barber {
+      color: var(--primary-color);
+          /* заменить цвет */
+    Font-size: 72px;
+     line-height: 1.18;
+  }
+.content-hero{
+    color: var(--services-color);
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 2%;
+}
