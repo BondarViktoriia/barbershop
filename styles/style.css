@@ -12,16 +12,19 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
-  letter-spacing: 3%;
+  letter-spacing: 0.02em;
   color: var(--primary-color);
 }
 /* header */
 .list {
   list-style: none;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 10%;
+}
+.list .site-nav{
+  font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
 }
 .site-nav .link {
   color: var(--third-color);
@@ -33,10 +36,11 @@ body {
 .contact-tel{
     color: var(--primary-color);
     /* заменить цвет */
-    font-weight: 600;
-    font-size: 12px;
-line-height: 1.33;
-    letter-spacing: 10%;
+font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 .online {
     color: var(--primary-color);
@@ -51,11 +55,8 @@ line-height: 1.33;
     font-weight: 600;
         font-size: 11px;
         line-height: 1.36;
-        letter-spacing: 20%;
-        /* text-align: left;
-        vertical-align: top; */
-        
-  }
+          letter-spacing: 0.2em;
+          }
   .sidebar:focus, .sidebar:hover{
       color: var(--acent-color);
   }
@@ -64,14 +65,15 @@ line-height: 1.33;
         font-weight: 600;
             font-size: 11px;
             line-height: 1.36;
-            letter-spacing: 10%;
+              letter-spacing: 0.1em;
+              text-transform: uppercase;
   }
   .title{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    letter-spacing: 5%;
+    letter-spacing: 0.05em;
   }
-  .title barber {
+  .title-barber {
       color: var(--primary-color);
           /* заменить цвет */
     Font-size: 72px;
@@ -81,5 +83,174 @@ line-height: 1.33;
     color: var(--services-color);
     font-size: 18px;
     line-height: 1.67;
-    letter-spacing: 2%;
+     letter-spacing: 0.02em;
 }
+.about-us {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
+.about-title {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--third-color);
+}
+.about-bottom {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.about-text{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.btn-online{
+  font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+      color: var(--third-color);
+}
+/* Price */
+.price-top {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+      color: rgba(157, 164, 189, 0.6);
+}
+.price-title{
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--second-color);
+}
+.price-item {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.price-btn{
+  font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+      color: var(--second-color);
+}
+/* benefits */
+.benefits-numbers {
+  font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+     letter-spacing: 0.05em;
+    color: var(--third-color);
+}
+.benefits-descriptios {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--third-color);
+}
+.benefits-top{
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
+.benefits-title {
+  font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+      color: var(--third-color);
+}
+.benefits-text {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+      color: var(--primary-color);
+}
+/* Masters */
+.masters-top {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
+.masters-title {
+  font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+      color: var(--third-color);
+}
+.masters-name {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+    }
+    .masters-descriptions {
+      font-weight: 400;
+        font-size: 14px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--acent-color);
+    }
+    /* Portfolio */
+    .portfolio-text {
+      font-weight: 600;
+        font-size: 11px;
+        line-height: 1.36;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+              color: var(--third-color);
+    }
+    /* Connection */
+    .connection-online {
+      font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.17;
+        letter-spacing: 0.05em;
+              color: var(--second-color);
+    }
+    .connection-tel {
+      font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.17;
+        letter-spacing: 0.05em;
+              color: var(--second-color);
+    }
+
