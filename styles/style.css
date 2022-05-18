@@ -15,6 +15,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+.link{
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* header */
 .list {
   list-style: none;
@@ -42,7 +57,13 @@ font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.contact-tel:hover,
+.contact-tel:focus{
+  color: var(--acent-color);
+}
 .online {
+  font-family: 'Open Sans' sans-serif;
+    font-weight: 600;
     color: var(--primary-color);
         /* заменить цвет */
     font-weight: 600;
@@ -117,7 +138,8 @@ font-weight: 600;
     color: var(--primary-color);
 }
 .btn-online{
-  font-weight: 600;
+  font-family: 'Open Sans';
+   font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.09em;
@@ -150,6 +172,7 @@ font-weight: 600;
     color: #9DA4BD;
 }
 .price-btn{
+  font-family: 'Open Sans' sans-serif;
   font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -237,6 +260,26 @@ font-weight: 600;
               color: var(--third-color);
     }
     /* Connection */
+    .connection {
+      background-color: #555555;
+    }
+    .contacts-link {
+      text-decoration: none;
+    }
+    .contacts-link {
+      font-weight: 400;
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.02em;
+        color: #9DA4BD;
+    }
+    .contacts-link-mail{
+      font-weight: 400;
+        font-size: 18px;
+        line-height: 1.67;
+            letter-spacing: 0.02em;
+        color: #9DA4BD;
+    }
     .connection-online {
       font-family: 'Raleway';
         font-weight: 700;
@@ -253,4 +296,38 @@ font-weight: 600;
         letter-spacing: 0.05em;
               color: var(--second-color);
     }
-
+    .connection-works{
+      font-weight: 600;
+        font-size: 11px;
+        line-height: 1.36;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+     color: #FFFFFF;
+    }
+      .connection-time{
+        font-weight: 400;
+          font-size: 18px;
+          line-height: 1.67;
+          letter-spacing: 0.02em;
+                  color: #9DA4BD;
+      }
+/* FOOTER */
+.footer-copy {
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+     letter-spacing: 0.2em;
+      color: #9DA4BD;
+}
+.footer-item{
+  font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+      color: #303030;
+      text-decoration: none;
+}
+.footer-item:focus,
+.footer-item:hover {
+  color: var(--acent-color);
+}
