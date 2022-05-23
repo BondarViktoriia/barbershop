@@ -8,39 +8,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
         <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container ">
         <a href="./index.html"></a>
         <img class="header-logo" src="./images/Logo.svg" alt="логотип компании">
         <nav>
             <ul class="list site-nav ">
-                <li><a  href="./" class="link">О нас</a></li>
-                <li><a  href="" class="link">Услуги и цены</a></li>
-                <li><a  href="" class="link">Мастера</a></li>
-                <li><a  href="" class="link">Контакты</a></li>
+                <li class="header-item"><a  href="./" class="link">О нас</a></li>
+                <li class="header-item"><a  href="" class="link">Услуги и цены</a></li>
+                <li class="header-item"><a  href="" class="link">Мастера</a></li>
+                <li class="header-item"><a  href="" class="link">Контакты</a></li>
             </ul>
         </nav>
-        <a href="tel:+380441111111" class="contact-tel link">+38 044 111 11 11</a>
-         <button type="button" class="online">Oнлайн-запись</button>
+        
+        <a href="tel:+380441111111" class="contact-tel">+38 044 111 11 11</a>
+         <button type="button" class="online ">Oнлайн-запись</button>
+        </div>
     </header>
     <main>
         <!-- Heroi -->
+        
         <section>
-            <ul class="list">
-                <li><a href="" class="sidebar link">Youtube</a></li>
-                <li><a href="" class="sidebar link">Instagram</a></li>
+        <div class="container">
+            <ul class="list container-sidebar">
+                <li class="sidebar- class="header-item"item"><a href="" class="sidebar link">Youtube</a></li>
+                <li class="sidebar-item"><a href="" class="sidebar link">Instagram</a></li>
             </ul>
-        </section>
-        <section>
             <h1 class="hero-title" lang="en">A hair salon for men in Kyiv</h1>
             <h2 class="title-barber">BarberShop</h2>
             <p class="content-hero">Мы эксперты в модных мужских стрижках.<br>
             Работаем быстро, осторожно и со вкусом.</p>
+            </div>
         </section>
          <!-- О нас -->
         <section class="about">
+            <div class="container">
             <ul class="list about-list">
                 <li><img src="./images/img-1.jpg" alt="оформление бороды" width="270" height="445"></li>
                 <li><img src="./images/img-2.jpg" alt="оформление окантовки" width="270" height="445"></li>
@@ -55,11 +61,13 @@
                 всегда
                 готовы усовершенствовать каждого, кто к нам приходит!</p>
             <button type="button" class="btn-online">Онлайн-запись</button>
+    </div>
         </section>
          <section class="price">
+             <div class="container">
              <p class="price-top">Проведи время в компании лучших мастеров</p>
              <h2 class="price-title">Услуги и цены</h2>
-             <ul class="price-list">
+             <ul class="price-list list">
                  <li class="price-item">
                      <p>Мужская стрижка</p> 
                     <p>от 300 грн.</p>
@@ -77,7 +85,7 @@
                      <p>т 200 грн.</p>
                  </li>
              </ul>
-             <ul class="price-list">
+             <ul class="price-list list">
                  <li class="price-item">
                      <p>Cтрижка у стажера</p>
                      <p>от 50 грн.</p>
@@ -100,9 +108,11 @@
                  </li>
              </ul>
              <button type="button" class="price-btn">Онлайн-запись</button>
-         </section>
+        </div>
+            </section>
          <section class="benefits">
-             <ul class="benefits-list"> 
+<div class="container">
+                         <ul class="benefits-list list"> 
                  <li class="benefits-item">
                     <span class="benefits-numbers">600</span>
                     <p class="benefits-descriptios">Довольных клиентов в день</p>
@@ -123,11 +133,13 @@
              <p class="benefits-top">Старая традиционная школа</p>
              <h2 class="benefits-title">Почему приходят именно к нам?</h2>
              <p class="benefits-text">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
-         </section>
+        </div>
+            </section>
          <section class="masters">
+             <div class="container">
              <p class="masters-top">Для настоящих ценителей атмосферы</p>
              <h2 class="masters-title">Наши мастера</h2>
-             <ul class="masters-list">
+             <ul class="masters-list list">
                  <li class="masters-item" >
                      <img src="./images/master-1.jpg" alt="фото мастера" width="370" height="346">/>
                          <h3 class="masters-name" lang="en">John Smith</h3>
@@ -147,18 +159,22 @@
                        
                  </li>
              </ul>
+            </div>
               </section>
               <section class="portfolio">
+                  <div class="container">
                   <h2 class="portfolio-title" hidden >Портфолио</h2>
                   <p class="portfolio-text">На латинском языке “барба” означает “борода”</p>
-                  <ul>
+                  <ul class="list">
                       <li><img src="./images/portfolio-1.jpg" alt="стрижка" width="270" height="360"></li>
                       <li> <img src="./images/portfolio-2.jpg" alt="стрижка" width="270" height="360"></li>
                       <li> <img src="./images/portfolio-3.jpg" alt="стрижка" width="270" height="360"></li>
                       <li><img src="./images/portfolio-4.jpg" alt="стрижка" width="270" height="360"></li>
                   </ul>
+                </div>
               </section>
               <section class="connection">
+                  <div class="container">
                   <p class="connection-online"> Онлайн-запись</p>
                   <p class="connection-tel">Контакты</p>
                   <address class="contacts">
@@ -171,13 +187,16 @@
                       </address>
                       <span class="connection-works">время работы</span>
                       <p class="connection-time">Ежедневно с 9:00 до 22:00</p>
-              </section>
+</div>
+                    </section>
               <footer class="footer">
+                  <div class="container">
                   <p class="footer-copy"> &copy; Copyright 2020</p>
                   <ul class="list footer-list">
                       <li><a href="" class="footer-item">Instagram</a></li>
                   <li> <a href="" class="footer-item">Youtube</a></li>
                 </ul>
+                </div>
               </footer>
     </main>
     

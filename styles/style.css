@@ -7,6 +7,23 @@
   --second-background: #f7f7f7;
   --acent-color: #ff6c00;
 }
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+}
+ul,ol{
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  margin:0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -41,6 +58,9 @@ body {
     line-height: 1.33;
     letter-spacing: 0.1em;
 }
+.site-nav {
+  display: flex;
+}
 .site-nav .link {
   color: var(--third-color);
 }
@@ -49,6 +69,7 @@ body {
     color: var(--acent-color);
 }
 .contact-tel{
+  display: flex;
     color: var(--primary-color);
     /* заменить цвет */
 font-weight: 600;
