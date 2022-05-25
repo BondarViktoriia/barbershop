@@ -24,6 +24,7 @@ button {
   padding-right: 15px;
   outline: 1px solid red;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -58,8 +59,12 @@ body {
     line-height: 1.33;
     letter-spacing: 0.1em;
 }
+.header-container {
+  display: flex;
+}
 .site-nav {
   display: flex;
+  padding-top: 48px;
 }
 .site-nav .link {
   color: var(--third-color);
@@ -70,6 +75,8 @@ body {
 }
 .contact-tel{
   display: flex;
+  margin-left: auto;
+  padding-top: 48px;
     color: var(--primary-color);
     /* заменить цвет */
 font-weight: 600;
@@ -77,12 +84,18 @@ font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
 }
 .contact-tel:hover,
 .contact-tel:focus{
   color: var(--acent-color);
 }
 .online {
+  padding-top: 48px;
+  border: 1px solid #FF6C00;
+    border-radius: 25px;
+  box-sizing: border-box;
   font-family: 'Open Sans' sans-serif;
     font-weight: 600;
     color: var(--primary-color);
@@ -90,7 +103,18 @@ font-weight: 600;
     font-weight: 600;
         font-size: 12px;
         line-height: 1.33;
+                }
+ .header-logo {
+   margin-top: 32px;
+ }
+ .header-item {
+   margin-top: 0;
   }
+
+ .site-nav .header-item:not(:last-child) {
+   margin-right: 50px;
+ }
+
   /* Hero */
   .sidebar{
       color: var(--third-color);
@@ -103,6 +127,7 @@ font-weight: 600;
       color: var(--acent-color);
   }
   .hero-title {
+    padding-bottom: 20px;
       color: rgba(157, 164, 189, 0.6);
         font-weight: 600;
             font-size: 11px;
@@ -116,18 +141,34 @@ font-weight: 600;
     letter-spacing: 0.05em;
   }
   .title-barber {
+    padding-bottom: 20px;
       color: var(--primary-color);
           /* заменить цвет */
     Font-size: 72px;
      line-height: 1.18;
   }
 .content-hero{
+  padding-bottom: 206px;
     color: var(--services-color);
     font-size: 18px;
     line-height: 1.67;
      letter-spacing: 0.02em;
 }
+.about-container {
+    padding-top: 139px;
+  padding-bottom: 92px;
+}
+.about-list {
+  display: flex;
+  width: 270px;
+
+}
+.about-item:not(:last-child) {
+  margin-right: 30px ;
+}
+
 .about-us {
+  padding-bottom: 20px;
   font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -136,6 +177,7 @@ font-weight: 600;
     color: var(--third-color);
 }
 .about-title {
+  padding-bottom: 20px;
   font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -145,6 +187,7 @@ font-weight: 600;
     color: var(--third-color);
 }
 .about-bottom {
+  padding-bottom: 20px;
   font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
@@ -152,6 +195,7 @@ font-weight: 600;
     color: var(--primary-color);
 }
 .about-text{
+  padding-bottom: 20px;
   font-weight: 400;
     font-size: 14px;
     line-height: 1.86;
@@ -168,7 +212,13 @@ font-weight: 600;
       color: var(--third-color);
 }
 /* Price */
+.price-container {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #303030;
+}
 .price-top {
+  padding-bottom: 20px;
   font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -177,6 +227,7 @@ font-weight: 600;
       color: rgba(157, 164, 189, 0.6);
 }
 .price-title{
+  padding-bottom: 44px;
   font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -202,6 +253,10 @@ font-weight: 600;
       color: var(--second-color);
 }
 /* benefits */
+.benefits-container{
+  padding-top: 143px;
+  padding-bottom: 108px;
+}
 .benefits-numbers {
   font-weight: 700;
     font-size: 42px;
@@ -216,6 +271,7 @@ font-weight: 600;
     color: var(--third-color);
 }
 .benefits-top{
+  padding-bottom: 20px;
   font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -224,6 +280,7 @@ font-weight: 600;
     color: var(--third-color);
 }
 .benefits-title {
+  padding-bottom: 20px;
   font-family: 'Raleway';
     font-weight: 700;
     font-size: 42px;
@@ -232,6 +289,7 @@ font-weight: 600;
       color: var(--third-color);
 }
 .benefits-text {
+  padding-bottom: 20px;
   font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
@@ -239,7 +297,12 @@ font-weight: 600;
       color: var(--primary-color);
 }
 /* Masters */
+.masters-container {
+  
+  padding: 130px 15px;
+}
 .masters-top {
+  padding-bottom: 20px;
   font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -248,6 +311,7 @@ font-weight: 600;
     color: var(--third-color);
 }
 .masters-title {
+  padding-bottom: 44px;
   font-family: 'Raleway';
     font-weight: 700;
     font-size: 42px;
@@ -255,7 +319,15 @@ font-weight: 600;
     letter-spacing: 0.05em;
       color: var(--third-color);
 }
+.masters-item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+.masters-list {
+  display: flex;
+}
 .masters-name {
+  margin-bottom: 8px;
   font-weight: 400;
     font-size: 18px;
     line-height: 1.39;
@@ -271,8 +343,24 @@ font-weight: 600;
         letter-spacing: 0.02em;
         color: var(--acent-color);
     }
+    .masters-descript {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      
+    }
     /* Portfolio */
+    .portfolio-container{
+      padding-top: 144px;
+      padding-bottom: 116px;
+    }
+    .portfolio-list {
+      display: flex;
+    }
+    .portfolio-item:not(:last-child){
+      margin-right: 30px;
+    }
     .portfolio-text {
+      padding-bottom: 44px;
       font-weight: 600;
         font-size: 11px;
         line-height: 1.36;
@@ -284,15 +372,20 @@ font-weight: 600;
     .connection {
       background-color: #555555;
     }
+    .connection-container{
+      padding: 130px 0px;
+    }
     .contacts-link {
       text-decoration: none;
     }
     .contacts-link {
+    
       font-weight: 400;
         font-size: 18px;
         line-height: 1.67;
         letter-spacing: 0.02em;
         color: #9DA4BD;
+        
     }
     .contacts-link-mail{
       font-weight: 400;
@@ -310,6 +403,7 @@ font-weight: 600;
               color: var(--second-color);
     }
     .connection-tel {
+      padding-bottom: 40px;
       font-family: 'Raleway';
         font-weight: 700;
         font-size: 42px;
@@ -318,6 +412,7 @@ font-weight: 600;
               color: var(--second-color);
     }
     .connection-works{
+      padding-bottom: 20px;
       font-weight: 600;
         font-size: 11px;
         line-height: 1.36;
@@ -332,7 +427,19 @@ font-weight: 600;
           letter-spacing: 0.02em;
                   color: #9DA4BD;
       }
+      .contact-item{
+        font-style: normal;
+        margin-bottom: 10px;
+      }
+      .contacts-list {
+        padding-bottom: 70px;
+      }
 /* FOOTER */
+.footer-container {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
 .footer-copy {
   font-weight: 600;
     font-size: 11px;
