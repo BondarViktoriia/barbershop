@@ -93,6 +93,7 @@ font-weight: 600;
 }
 .online {
   padding-top: 48px;
+  min-width: 160px;
   border: 1px solid #FF6C00;
     border-radius: 25px;
   box-sizing: border-box;
@@ -157,14 +158,20 @@ font-weight: 600;
 .about-container {
     padding-top: 139px;
   padding-bottom: 92px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .about-list {
-  display: flex;
+  display: ;
   width: 270px;
 
 }
 .about-item:not(:last-child) {
   margin-right: 30px ;
+}
+.about-content{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-us {
